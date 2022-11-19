@@ -24,7 +24,8 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
-st.header('Movie Recommender System')
+st.header('Show Time!')
+st.header('A Movie Recommender System')
 st.subheader('By Vaish ')
 movies = pickle.load(open('movie_list.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
